@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<BIF_FlashAbasia.label>BIF нейтрализации</BIF_FlashAbasia.label>
+	<BIF_FlashAbasia.description>Этот организм находится под воздействием опасного стазисного поля.</BIF_FlashAbasia.description>
+
+	<BIF_FlashHeadExp.label>BIF убийца</BIF_FlashHeadExp.label>
+	<BIF_FlashHeadExp.description>Вызывает необратимые повреждения головного мозга живых организмов.</BIF_FlashHeadExp.description>
+
+	<BIF_FlashBoostSleep.label>BIF отдыха</BIF_FlashBoostSleep.label>
+	<BIF_FlashBoostSleep.description>Этот организм находится под воздействием стазисного поля.</BIF_FlashBoostSleep.description>
+
+	<BIF_FlashBoostFood.label>BIF голода</BIF_FlashBoostFood.label>
+	<BIF_FlashBoostFood.description>Этот организм находится под воздействием стазисного поля.</BIF_FlashBoostFood.description>
+
+	<BIF_PsyStasis.label>BIF "Фарадей"</BIF_PsyStasis.label>
+	<BIF_PsyStasis.description>Стазисное поле этого устройства нейтрализует псионическое воздействие.</BIF_PsyStasis.description>
+
+
+</LanguageData>
