@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<BIF_FlashAbasia.label>BIF Breakdown</BIF_FlashAbasia.label>
+	<BIF_FlashAbasia.description>This organism is under the influence of a dangerous stasis field.</BIF_FlashAbasia.description>
+
+	<BIF_FlashHeadExp.label>BIF Killer</BIF_FlashHeadExp.label>
+	<BIF_FlashHeadExp.description>Causes irreversible brain damage in living organisms.</BIF_FlashHeadExp.description>
+
+	<BIF_FlashBoostSleep.label>BIF Rest</BIF_FlashBoostSleep.label>
+	<BIF_FlashBoostSleep.description>This organism is under the influence of a stasis field.</BIF_FlashBoostSleep.description>
+
+	<BIF_FlashBoostFood.label>BIF Hunger</BIF_FlashBoostFood.label>
+	<BIF_FlashBoostFood.description>This organism is under the influence of a stasis field.</BIF_FlashBoostFood.description>
+
+	<BIF_PsyStasis.label>BIF Faraday</BIF_PsyStasis.label>
+	<BIF_PsyStasis.description>The stasis field from this device indicates living organisms from psychic exposure.</BIF_PsyStasis.description>
+
+
+</LanguageData>
