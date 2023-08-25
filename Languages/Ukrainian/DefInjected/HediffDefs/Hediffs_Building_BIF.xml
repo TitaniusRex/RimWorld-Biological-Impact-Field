@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<BIF_FlashAbasia.label>BIF нейтралізації</BIF_FlashAbasia.label>
+	<BIF_FlashAbasia.description>Цей організм перебуває під впливом небезпечного стазового поля.</BIF_FlashAbasia.description>
+
+	<BIF_FlashHeadExp.label>BIF вбивця</BIF_FlashHeadExp.label>
+	<BIF_FlashHeadExp.description>Викликає незворотні ушкодження головного мозку живих організмів.</BIF_FlashHeadExp.description>
+
+	<BIF_FlashBoostSleep.label>BIF відпочинку</BIF_FlashBoostSleep.label>
+	<BIF_FlashBoostSleep.description>Цей організм перебуває під впливом стазового поля.</BIF_FlashBoostSleep.description>
+
+	<BIF_FlashBoostFood.label>BIF голоду</BIF_FlashBoostFood.label>
+	<BIF_FlashBoostFood.description>Цей організм перебуває під впливом стазового поля.</BIF_FlashBoostFood.description>
+
+	<BIF_PsyStasis.label>BIF "Фарадей"</BIF_PsyStasis.label>
+	<BIF_PsyStasis.description>Стазове поле цього пристрою нейтралізує псіонічну дію.</BIF_PsyStasis.description>
+
+
+</LanguageData>
