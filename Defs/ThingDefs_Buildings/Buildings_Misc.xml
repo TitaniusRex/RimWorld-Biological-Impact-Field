@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>BIF_busterstoper</defName>
+		<label>B I F</label>
+	</DesignatorDropdownGroupDef>
+	<!--================-->
+	
+	<HediffDef>
+		<defName>BIF_FlashAbasia</defName>
+		<label>BIF Breakdown</label>
+		<description>This organism is under the influence of a dangerous stasis field.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.92, 0.1, 0.1)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<hediffGivers>
+			<li Class="HediffGiver_Random">
+				<mtbDays>0</mtbDays>
+				<hediff>CatatonicBreakdown</hediff><!--Abasia-->
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+		<isBad>true</isBad>
+	</HediffDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>DIF_FlashStoperAbasia</defName>
+		<label>head shock device</label>
+		<description>Brain suppression device. The field produced by this structure causes paralysis of the body. It can be dangerous if help is not provided.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolAbazia</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<minifiedDef IsNull="True" />
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>Toxifier_Working</soundAmbient>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>16000</WorkToBuild>
+			<Mass>225</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>75</Uranium>
+			<Steel>200</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>150</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9.9</glowRadius>
+				<glowColor>(238,27,34,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>8800</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>9.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_FlashAbasia</hediff>
+			</li>
+			<li Class="CompProperties_Toxifier">
+				<radius>26.9</radius>
+				<cellsToPollute>1</cellsToPollute>
+				<pollutionIntervalTicks>15000</pollutionIntervalTicks>
+				<!-- 4 on 1 day -->
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>13.9</explosiveRadius>
+				<explosiveDamageType>Thump</explosiveDamageType>
+				<destroyThingOnExplosionSize>13.9</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>200~450</wickTicks>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+	
+	<!--================-->
+	
+	<HediffDef>
+		<defName>BIF_FlashHeadExp</defName>
+		<label>BIF Killer</label>
+		<description>Causes irreversible brain damage in living organisms.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.95, 0.1, 0.1)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<hediffGivers>
+			<li Class="HediffGiver_Random">
+				<mtbDays>0</mtbDays>
+				<hediff>MissingBodyPart</hediff>
+				<partsToAffect>
+					<li>Head</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+		<isBad>true</isBad>
+	</HediffDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>DIF_FlashStopKill</defName>
+		<label>brain rupture device</label>
+		<description>Brain explosion device. Dangerous without compromise.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolKaboom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<minifiedDef IsNull="True" />
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>Toxifier_Working</soundAmbient>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>16000</WorkToBuild>
+			<Mass>225</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>75</Uranium>
+			<Steel>200</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>150</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9.9</glowRadius>
+				<glowColor>(238,27,34,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>8800</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>9.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_FlashHeadExp</hediff>
+			</li>
+			<li Class="CompProperties_Toxifier">
+				<radius>26.9</radius>
+				<cellsToPollute>1</cellsToPollute>
+				<pollutionIntervalTicks>15000</pollutionIntervalTicks>
+				<!--4 on 1 day -->
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>13.9</explosiveRadius>
+				<explosiveDamageType>Thump</explosiveDamageType>
+				<destroyThingOnExplosionSize>13.9</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>200~450</wickTicks>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+	
+	<!--================-->
+	
+	<HediffDef>
+		<defName>BIF_FlashBoostSleep</defName>
+		<label>BIF Rest</label>
+		<description>This organism is under the influence of a stasis field.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<RestFallRateFactor>0.05</RestFallRateFactor>
+					<PsychicSensitivity>2</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>DIF_FlashBoostersleep</defName>
+		<label>sleep stasis device</label>
+		<description>Stasis field device. It has a positive effect on the body, slowing down the need for sleep.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<minifiedDef IsNull="True" />
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>Toxifier_Working</soundAmbient>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>16000</WorkToBuild>
+			<Mass>225</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>150</Uranium>
+			<Steel>200</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>350</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9.9</glowRadius>
+				<glowColor>(28,211,162,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>2400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>9.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_FlashBoostSleep</hediff>
+			</li>
+			<li Class="CompProperties_Toxifier">
+				<radius>26.9</radius>
+				<cellsToPollute>2</cellsToPollute>
+				<pollutionIntervalTicks>60000</pollutionIntervalTicks>
+				<!-- ~ 1 day -->
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>13.9</explosiveRadius>
+				<explosiveDamageType>Thump</explosiveDamageType>
+				<destroyThingOnExplosionSize>13.9</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>200~450</wickTicks>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+	
+	<!--================-->
+	
+	<HediffDef>
+		<defName>BIF_FlashBoostFood</defName>
+		<label>BIF Hunger</label>
+		<description>This organism is under the influence of a stasis field.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<hungerRateFactor>0.05</hungerRateFactor>
+				<statFactors>
+					<PsychicSensitivity>2</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>BIF_FlashStazisFood</defName>
+		<label>hunger stasis device</label>
+		<description>Stasis field device. It has a positive effect on the body, slowing down the need for hunger.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<minifiedDef IsNull="True" />
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>Toxifier_Working</soundAmbient>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>16000</WorkToBuild>
+			<Mass>25</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>150</Uranium>
+			<Steel>200</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>350</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9.9</glowRadius>
+				<glowColor>(28,211,162,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>2400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>9.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_FlashBoostFood</hediff>
+			</li>
+			<li Class="CompProperties_Toxifier">
+				<radius>26.9</radius>
+				<cellsToPollute>2</cellsToPollute>
+				<pollutionIntervalTicks>60000</pollutionIntervalTicks>
+				<!-- ~ 1 day -->
+			</li>
+		    <li Class="CompProperties_Explosive">
+				<explosiveRadius>13.9</explosiveRadius>
+				<explosiveDamageType>Thump</explosiveDamageType>
+				<destroyThingOnExplosionSize>13.9</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>200~450</wickTicks>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>false</rotatable>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+
+	<!--================-->
+
+	<HediffDef>
+		<defName>BIF_PsyStasis</defName>
+		<label>BIF Faraday</label>
+		<description>The stasis field from this device indicates living organisms from psychic exposure.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<PsychicSensitivity>0</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BIF_FlashStazisPsy</defName>
+		<label>Faraday device</label>
+		<description>Stasis field device. Protects from psychic influence.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolStazisFaraday</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<minifiedDef IsNull="True" />
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>25</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>15</Uranium>
+			<Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>350</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9.9</glowRadius>
+				<glowColor>(28,211,162,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>5.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_PsyStasis</hediff>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>false</rotatable>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+</Defs>
