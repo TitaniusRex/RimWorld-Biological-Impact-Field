@@ -571,4 +571,200 @@
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
+
+	<!--================-->
+
+	<HediffDef>
+		<defName>BIF_immunizers</defName>
+		<label>BIF Immunomodulator</label>
+		<description>Affects the immune system.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+				</statFactors>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BIF_immunizerAdgeyzer</defName>
+		<label>Immunomodulator</label>
+		<description>Affects the immune system. It has no direct effect on pathogens, but changes the immune response of cells.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolImmunoizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>25</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>15</Uranium>
+			<Steel>50</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>350</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9.9</glowRadius>
+				<glowColor>(7,2,115,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1600</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>5.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_immunizers</hediff>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>false</rotatable>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+
+<!--================-->
+
+	<HediffDef>
+		<defName>BIF_HealingFactor</defName>
+		<label>BIF Healer</label>
+		<description>Acceleration of wound healing.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			    <naturalHealingFactor>4</naturalHealingFactor>
+			</li>
+		</stages>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BIF_HealingFactors</defName>
+		<label>Healer</label>
+		<description>Accelerates healing. The best option for the hospital. The amplifying device could produce both pollution and cancer.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.4</fillPercent>
+		<designatorDropdown>BIF_busterstoper</designatorDropdown>
+		<graphicData>
+			<texPath>Things/Building/BIFSmol/BIFSmolImmunoizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.35, 0.8)</volume>
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<buildingTags>
+				<li>Biotech</li>
+			</buildingTags>
+		</building>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<designationCategory>Biotech</designationCategory>
+		<uiOrder>3820</uiOrder>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>25</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Uranium>15</Uranium>
+			<Steel>50</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect</mote>
+				<emissionInterval>350</emissionInterval>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5.9</glowRadius>
+				<glowColor>(7,2,115,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>2200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>3.9</range>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<hediff>BIF_HealingFactor</hediff>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>false</rotatable>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
 </Defs>
