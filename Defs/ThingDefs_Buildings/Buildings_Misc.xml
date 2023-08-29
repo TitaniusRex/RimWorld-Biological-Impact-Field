@@ -26,7 +26,7 @@
 		</comps>
 		<hediffGivers>
 			<li Class="HediffGiver_Random">
-				<mtbDays>0</mtbDays>
+				<mtbDays>0.003</mtbDays>
 				<hediff>CatatonicBreakdown</hediff><!--Abasia-->
 				<partsToAffect>
 					<li>Brain</li>
@@ -143,7 +143,7 @@
 		</comps>
 		<hediffGivers>
 			<li Class="HediffGiver_Random">
-				<mtbDays>0</mtbDays>
+				<mtbDays>0.004</mtbDays>
 				<hediff>MissingBodyPart</hediff>
 				<partsToAffect>
 					<li>Head</li>
@@ -517,7 +517,6 @@
 				<offset>(0, 0, -0.2)</offset>
 			</shadowData>
 		</graphicData>
-		<minifiedDef IsNull="True" />
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<building>
@@ -767,4 +766,5 @@
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
+
 </Defs>

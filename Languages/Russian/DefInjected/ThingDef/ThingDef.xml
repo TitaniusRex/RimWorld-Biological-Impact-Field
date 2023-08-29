@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<DIF_FlashStoperAbasia.label>устройство шока мозга</DIF_FlashStoperAbasia.label>
+	<DIF_FlashStoperAbasia.description>Устройство подавления. Поле, создаваемое этим устройством, вызывает паралич тела. Может быть опасно, если не оказать помощь. Производит загрязнение.</DIF_FlashStoperAbasia.description>
+
+	<DIF_FlashStopKill.label>устройство разрыва мозга</DIF_FlashStopKill.label>
+	<DIF_FlashStopKill.description>Устройство взрыва мозга. Опасно без компромиссов. Производит загрязнение.</DIF_FlashStopKill.description>
+
+	<DIF_FlashBoostersleep.label>устройство стазиса сна</DIF_FlashBoostersleep.label>
+	<DIF_FlashBoostersleep.description>Стазисное устройство. Оказывает положительное влияние на организм, замедляя потребность во сне. Производит загрязнение.</DIF_FlashBoostersleep.description>
+
+	<BIF_FlashStazisFood.label>устройство стазиса голода</BIF_FlashStazisFood.label>
+	<BIF_FlashStazisFood.description>Стазисное устройство. Положительно влияет на организм, замедляя чувство голода. Производит загрязнение.</BIF_FlashStazisFood.description>
+
+	<BIF_FlashStazisPsy.label>устройство "Фарадей"</BIF_FlashStazisPsy.label>
+	<BIF_FlashStazisPsy.description>Стазисное устройство. Защищает от психического воздействия.</BIF_FlashStazisPsy.description>
+
+	<BIF_immunizerAdgeyzer.label>Иммуномодулятор</BIF_immunizerAdgeyzer.label>
+	<BIF_immunizerAdgeyzer.description>Влияет на иммунную систему. Не оказывает прямого воздействия на возбудителей болезни, но изменяет иммунный ответ клеток.</BIF_immunizerAdgeyzer.description>
+
+	<BIF_HealingFactors.label>Целитель</BIF_HealingFactors.label>
+	<BIF_HealingFactors.description>Ускоряет исцеление. Оптимальный вариант для больницы. Усилинное устройство могло производило как загрязнения, так и провоцировать рак.</BIF_HealingFactors.description>
+
+</LanguageData>
+

@@ -17,5 +17,10 @@
 	<BIF_PsyStasis.label>BIF "Фарадей"</BIF_PsyStasis.label>
 	<BIF_PsyStasis.description>Стазисное поле этого устройства нейтрализует псионическое воздействие.</BIF_PsyStasis.description>
 
+	<BIF_immunizers.label>BIF Иммуномодулятор</BIF_immunizers.label>
+	<BIF_immunizers.description>Воздействует на иммунную систему.</BIF_immunizers.description>
 
+	<BIF_HealingFactor.label>BIF Целитель</BIF_HealingFactor.label>
+	<BIF_HealingFactor.description>Ускорение заживления ран.</BIF_HealingFactor.description>
+	
 </LanguageData>

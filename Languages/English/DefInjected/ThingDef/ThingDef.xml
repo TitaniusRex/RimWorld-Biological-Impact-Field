@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<DIF_FlashStoperAbasia.label>head shock device</DIF_FlashStoperAbasia.label>
+	<DIF_FlashStoperAbasia.description>Brain suppression device. The field produced by this structure causes paralysis of the body. It can be dangerous if help is not provided. Produces pollution.</DIF_FlashStoperAbasia.description>
+
+	<DIF_FlashStopKill.label>brain rupture device</DIF_FlashStopKill.label>
+	<DIF_FlashStopKill.description>Brain explosion device. Dangerous without compromise. Produces pollution.</DIF_FlashStopKill.description>
+
+	<DIF_FlashBoostersleep.label>sleep stasis device</DIF_FlashBoostersleep.label>
+	<DIF_FlashBoostersleep.description>Stasis field device. It has a positive effect on the body, slowing down the need for sleep. Produces pollution.</DIF_FlashBoostersleep.description>
+
+	<BIF_FlashStazisFood.label>hunger stasis device</BIF_FlashStazisFood.label>
+	<BIF_FlashStazisFood.description>Stasis field device. It has a positive effect on the body, slowing down the need for hunger. Produces pollution.</BIF_FlashStazisFood.description>
+
+	<BIF_FlashStazisPsy.label>Faraday device</BIF_FlashStazisPsy.label>
+	<BIF_FlashStazisPsy.description>Stasis field device. Protects from psychic influence.</BIF_FlashStazisPsy.description>
+
+	<BIF_immunizerAdgeyzer.label>Immunomodulator</BIF_immunizerAdgeyzer.label>
+	<BIF_immunizerAdgeyzer.description>Affects the immune system. It has no direct effect on pathogens, but changes the immune response of cells.</BIF_immunizerAdgeyzer.description>
+
+	<BIF_HealingFactors.label>Healer</BIF_HealingFactors.label>
+	<BIF_HealingFactors.description>Accelerates healing. The best option for the hospital. The amplifying device could produce both pollution and cancer.</BIF_HealingFactors.description>
+
+</LanguageData>
+

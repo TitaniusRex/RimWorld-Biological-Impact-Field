@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<DIF_FlashStoperAbasia.label>пристрій шоку мозку</DIF_FlashStoperAbasia.label>
+	<DIF_FlashStoperAbasia.description>Пристрій придушення. Поле, яке створюється цим пристроєм, викликає параліч тіла. Може бути небезпечно, якщо не надати допомогу. Наводить забруднення території.</DIF_FlashStoperAbasia.description>
+
+	<DIF_FlashStopKill.label>пристрій розриву мозку</DIF_FlashStopKill.label>
+	<DIF_FlashStopKill.description>Пристрій вибуху мозку. Небезпечно без компромісів. Наводить забруднення території.</DIF_FlashStopKill.description>
+
+	<DIF_FlashBoostersleep.label>пристрій стазису сну</DIF_FlashBoostersleep.label>
+	<DIF_FlashBoostersleep.description>Стазовий пристрій. Має позитивний вплив на організм, уповільнюючи потребу уві сні. Наводить забруднення території.</DIF_FlashBoostersleep.description>
+
+	<BIF_FlashStazisFood.label>пристрій стазису голоду</BIF_FlashStazisFood.label>
+	<BIF_FlashStazisFood.description>Стазовий пристрій. Позитивно впливає організм, уповільнюючи почуття голоду. Наводить забруднення території.</BIF_FlashStazisFood.description>
+
+	<BIF_FlashStazisPsy.label>пристрій "Фарадей"</BIF_FlashStazisPsy.label>
+	<BIF_FlashStazisPsy.description>Стазовий пристрій. Захищає від психічної дії.</BIF_FlashStazisPsy.description>
+
+	<BIF_immunizerAdgeyzer.label>Імуномодулятор</BIF_immunizerAdgeyzer.label>
+	<BIF_immunizerAdgeyzer.description>Впливає на імунну систему Не має прямого впливу на збудників хвороби, але змінює імунну відповідь клітин.</BIF_immunizerAdgeyzer.description>
+
+	<BIF_HealingFactors.label>Лікар</BIF_HealingFactors.label>
+	<BIF_HealingFactors.description>Прискорює лікування. Оптимальний варіант лікарні. Посилений пристрій міг виробляти забруднення та провокувати рак.</BIF_HealingFactors.description>
+
+</LanguageData>
+

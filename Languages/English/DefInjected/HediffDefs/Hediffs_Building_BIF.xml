@@ -17,5 +17,10 @@
 	<BIF_PsyStasis.label>BIF Faraday</BIF_PsyStasis.label>
 	<BIF_PsyStasis.description>The stasis field from this device indicates living organisms from psychic exposure.</BIF_PsyStasis.description>
 
+	<BIF_immunizers.label>BIF Immunomodulator</BIF_immunizers.label>
+	<BIF_immunizers.description>Affects the immune system.</BIF_immunizers.description>
 
+	<BIF_HealingFactor.label>BIF Healer</BIF_HealingFactor.label>
+	<BIF_HealingFactor.description>Acceleration of wound healing.</BIF_HealingFactor.description>
+	
 </LanguageData>

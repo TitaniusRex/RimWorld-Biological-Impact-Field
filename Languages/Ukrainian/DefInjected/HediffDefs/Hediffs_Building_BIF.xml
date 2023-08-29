@@ -17,5 +17,10 @@
 	<BIF_PsyStasis.label>BIF "Фарадей"</BIF_PsyStasis.label>
 	<BIF_PsyStasis.description>Стазове поле цього пристрою нейтралізує псіонічну дію.</BIF_PsyStasis.description>
 
+	<BIF_immunizers.label>BIF Імуномодулятор</BIF_immunizers.label>
+	<BIF_immunizers.description>Впливає на імунну систему.</BIF_immunizers.description>
 
+	<BIF_HealingFactor.label>BIF Лікар</BIF_HealingFactor.label>
+	<BIF_HealingFactor.description>Прискорення лікування ран.</BIF_HealingFactor.description>
+	
 </LanguageData>
