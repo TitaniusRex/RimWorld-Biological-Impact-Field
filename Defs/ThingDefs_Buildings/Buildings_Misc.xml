@@ -54,9 +54,9 @@
 		<shadowData>
 		    <volume>(0.8, 0.35, 0.8)</volume>
 		    <offset>(0, 0, -0.2)</offset>
-			</shadowData>
-		</graphicData>
-		<minifiedDef IsNull="True" />
+		</shadowData>
+	    </graphicData>
+	    <minifiedDef IsNull="True" />
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<building>
