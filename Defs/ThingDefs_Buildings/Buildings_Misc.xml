@@ -3,10 +3,11 @@
 <Defs>
 
 	<DesignatorDropdownGroupDef>
-		<defName>BIF_busterstoper</defName>
-		<label>B I F</label>
+	    <defName>BIF_busterstoper</defName>
+	    <label>B I F</label>
 	</DesignatorDropdownGroupDef>
-	<!--================-->
+	
+	<!--============================-->
 	
 	<HediffDef>
 		<defName>BIF_FlashAbasia</defName>
