@@ -33,8 +33,8 @@
 			<li>Brain</li>
 		    </partsToAffect>
 		</li>
-		</hediffGivers>
-		<isBad>true</isBad>
+	    </hediffGivers>
+	    <isBad>true</isBad>
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
