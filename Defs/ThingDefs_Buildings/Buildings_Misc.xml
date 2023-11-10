@@ -10,16 +10,16 @@
 	<!--============================-->
 	
 	<HediffDef>
-		<defName>BIF_FlashAbasia</defName>
-		<label>BIF Breakdown</label>
-		<description>This organism is under the influence of a dangerous stasis field.</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<defaultLabelColor>(0.92, 0.1, 0.1)</defaultLabelColor>
-		<comps>
-			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>30</disappearsAfterTicks>
-				<showRemainingTime>false</showRemainingTime>
-			</li>
+	    <defName>BIF_FlashAbasia</defName>
+	    <label>BIF Breakdown</label>
+	    <description>This organism is under the influence of a dangerous stasis field.</description>
+	    <hediffClass>HediffWithComps</hediffClass>
+	    <defaultLabelColor>(0.92, 0.1, 0.1)</defaultLabelColor>
+	    <comps>
+		<li Class="HediffCompProperties_Disappears">
+		    <disappearsAfterTicks>30</disappearsAfterTicks>
+		    <showRemainingTime>false</showRemainingTime>
+		</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 			<li Class="HediffCompProperties_Link">
 				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
