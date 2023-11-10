@@ -21,7 +21,7 @@
 		    <showRemainingTime>false</showRemainingTime>
 		</li>
 		<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			<li Class="HediffCompProperties_Link">
+		<li Class="HediffCompProperties_Link">
 				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 			</li>
 		</comps>
