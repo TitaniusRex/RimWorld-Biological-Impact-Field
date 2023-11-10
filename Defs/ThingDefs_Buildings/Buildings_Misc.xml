@@ -37,15 +37,17 @@
 	    <isBad>true</isBad>
 	</HediffDef>
 
+
+	
 	<ThingDef ParentName="BuildingBase">
-		<defName>DIF_FlashStoperAbasia</defName>
-		<label>head shock device</label>
-		<description>Brain suppression device. The field produced by this structure causes paralysis of the body. It can be dangerous if help is not provided.</description>
-		<tickerType>Normal</tickerType>
-		<drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.4</fillPercent>
-		<designatorDropdown>BIF_busterstoper</designatorDropdown>
-		<graphicData>
+	    <defName>DIF_FlashStoperAbasia</defName>
+	    <label>head shock device</label>
+	    <description>Brain suppression device. The field produced by this structure causes paralysis of the body. It can be dangerous if help is not provided.</description>
+	    <tickerType>Normal</tickerType>
+	    <drawerType>RealtimeOnly</drawerType>
+	    <fillPercent>0.4</fillPercent>
+	    <designatorDropdown>BIF_busterstoper</designatorDropdown>
+	    <graphicData>
 			<texPath>Things/Building/BIFSmol/BIFSmolAbazia</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
