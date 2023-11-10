@@ -22,9 +22,9 @@
 		</li>
 		<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		<li Class="HediffCompProperties_Link">
-				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
-			</li>
-		</comps>
+		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		</li>
+	    </comps>
 		<hediffGivers>
 			<li Class="HediffGiver_Random">
 				<mtbDays>0.003</mtbDays>
