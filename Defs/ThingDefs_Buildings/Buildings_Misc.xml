@@ -762,12 +762,12 @@
 		</li>
 		<li Class="CompProperties_Flickable"/>
 		<li Class="CompProperties_Breakdownable"/>
-		</comps>
-		<rotatable>false</rotatable>
-		<placeWorkers>
-			<li>PlaceWorker_ShowCauseHediffAoE</li>
-		</placeWorkers>
-		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	    </comps>
+	    <rotatable>false</rotatable>
+	    <placeWorkers>
+		<li>PlaceWorker_ShowCauseHediffAoE</li>
+	    </placeWorkers>
+	    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
 
 </Defs>
