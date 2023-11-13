@@ -751,17 +751,17 @@
 		    <glowRadius>5.9</glowRadius>
 		    <glowColor>(7,2,115,0)</glowColor>
 		</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>2200</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_CauseHediff_AoE">
-				<range>3.9</range>
-				<onlyTargetMechs>false</onlyTargetMechs>
-				<hediff>BIF_HealingFactor</hediff>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
+		<li Class="CompProperties_Power">
+		    <compClass>CompPowerTrader</compClass>
+		    <basePowerConsumption>2200</basePowerConsumption>
+		</li>
+		<li Class="CompProperties_CauseHediff_AoE">
+		    <range>3.9</range>
+		    <onlyTargetMechs>false</onlyTargetMechs>
+		    <hediff>BIF_HealingFactor</hediff>
+		</li>
+		<li Class="CompProperties_Flickable"/>
+		<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<rotatable>false</rotatable>
 		<placeWorkers>
