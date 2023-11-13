@@ -700,9 +700,9 @@
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>BIF_HealingFactors</defName>
-		<label>Healer</label>
-		<description>Accelerates healing. The best option for the hospital. The amplifying device could produce both pollution and cancer.</description>
+	    <defName>BIF_HealingFactors</defName>
+	    <label>Healer</label>
+	    <description>Accelerates healing. The best option for the hospital. The amplifying device could produce both pollution and cancer.</description>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.4</fillPercent>
