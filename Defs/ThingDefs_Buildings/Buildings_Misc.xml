@@ -743,10 +743,10 @@
 		<li>MicroelectronicsBasics</li>
 	    </researchPrerequisites>
 	    <comps>
-			<li Class="CompProperties_MoteEmitter">
-				<mote>Mote_PsychicEmanatorEffect</mote>
-				<emissionInterval>350</emissionInterval>
-			</li>
+		<li Class="CompProperties_MoteEmitter">
+		    <mote>Mote_PsychicEmanatorEffect</mote>
+		    <emissionInterval>350</emissionInterval>
+		</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>5.9</glowRadius>
 				<glowColor>(7,2,115,0)</glowColor>
