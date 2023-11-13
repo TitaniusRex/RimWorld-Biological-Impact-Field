@@ -736,13 +736,13 @@
 	    <size>(1,1)</size>
 	    <costList>
 		<Uranium>15</Uranium>
-			<Steel>50</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
-		</costList>
-		<researchPrerequisites>
-			<li>MicroelectronicsBasics</li>
-		</researchPrerequisites>
-		<comps>
+		<Steel>50</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+	    </costList>
+	    <researchPrerequisites>
+		<li>MicroelectronicsBasics</li>
+	    </researchPrerequisites>
+	    <comps>
 			<li Class="CompProperties_MoteEmitter">
 				<mote>Mote_PsychicEmanatorEffect</mote>
 				<emissionInterval>350</emissionInterval>
