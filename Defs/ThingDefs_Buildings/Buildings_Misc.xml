@@ -89,14 +89,14 @@
 		    <mote>Mote_PsychicEmanatorEffect</mote>
 		    <emissionInterval>150</emissionInterval>
 		</li>
-			<li Class="CompProperties_Glower">
+		<li Class="CompProperties_Glower">
 				<glowRadius>9.9</glowRadius>
 				<glowColor>(238,27,34,0)</glowColor>
-			</li>
-			<li Class="CompProperties_Power">
+		</li>
+		<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>8800</basePowerConsumption>
-			</li>
+		</li>
 			<li Class="CompProperties_CauseHediff_AoE">
 				<range>9.9</range>
 				<onlyTargetMechs>false</onlyTargetMechs>
