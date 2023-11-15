@@ -97,11 +97,11 @@
 		    <compClass>CompPowerTrader</compClass>
 		    <basePowerConsumption>8800</basePowerConsumption>
 		</li>
-			<li Class="CompProperties_CauseHediff_AoE">
-				<range>9.9</range>
-				<onlyTargetMechs>false</onlyTargetMechs>
-				<hediff>BIF_FlashAbasia</hediff>
-			</li>
+		<li Class="CompProperties_CauseHediff_AoE">
+		    <range>9.9</range>
+		    <onlyTargetMechs>false</onlyTargetMechs>
+		    <hediff>BIF_FlashAbasia</hediff>
+		</li>
 			<li Class="CompProperties_Toxifier">
 				<radius>26.9</radius>
 				<cellsToPollute>1</cellsToPollute>
