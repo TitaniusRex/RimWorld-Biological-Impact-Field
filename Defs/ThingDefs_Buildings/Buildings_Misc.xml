@@ -75,12 +75,12 @@
 		<Mass>225</Mass>
 		<Flammability>0.1</Flammability>
 	    </statBases>
-		<size>(1,1)</size>
-		<costList>
+	    <size>(1,1)</size>
+	    <costList>
 			<Uranium>75</Uranium>
 			<Steel>200</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
-		</costList>
+	    </costList>
 		<researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
 		</researchPrerequisites>
