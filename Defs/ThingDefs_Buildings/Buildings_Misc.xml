@@ -90,12 +90,12 @@
 		    <emissionInterval>150</emissionInterval>
 		</li>
 		<li Class="CompProperties_Glower">
-				<glowRadius>9.9</glowRadius>
-				<glowColor>(238,27,34,0)</glowColor>
+		    <glowRadius>9.9</glowRadius>
+		    <glowColor>(238,27,34,0)</glowColor>
 		</li>
 		<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>8800</basePowerConsumption>
+		    <compClass>CompPowerTrader</compClass>
+		    <basePowerConsumption>8800</basePowerConsumption>
 		</li>
 			<li Class="CompProperties_CauseHediff_AoE">
 				<range>9.9</range>
