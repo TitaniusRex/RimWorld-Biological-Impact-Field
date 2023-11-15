@@ -77,9 +77,9 @@
 	    </statBases>
 	    <size>(1,1)</size>
 	    <costList>
-			<Uranium>75</Uranium>
-			<Steel>200</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+		<Uranium>75</Uranium>
+		<Steel>200</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
 	    </costList>
 		<researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
