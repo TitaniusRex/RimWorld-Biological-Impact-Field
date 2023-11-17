@@ -688,7 +688,7 @@
 		    </li>
 		    <li Class="HediffCompProperties_DisappearsOnDeath"/>
 		    <li Class="HediffCompProperties_Link">
-			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 		</li>
 	    </comps>
 	    <stages>
