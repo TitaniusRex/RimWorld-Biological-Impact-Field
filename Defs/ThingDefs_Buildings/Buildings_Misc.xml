@@ -670,7 +670,7 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowCauseHediffAoE</li>
 		</placeWorkers>
-		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
 
 <!--================-->
