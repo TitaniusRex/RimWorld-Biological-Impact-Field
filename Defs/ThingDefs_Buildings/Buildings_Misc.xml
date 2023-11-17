@@ -129,9 +129,9 @@
 	<!--================-->
 	
 	<HediffDef>
-		<defName>BIF_FlashHeadExp</defName>
-		<label>BIF Killer</label>
-		<description>Causes irreversible brain damage in living organisms.</description>
+	    <defName>BIF_FlashHeadExp</defName>
+	    <label>BIF Killer</label>
+	    <description>Causes irreversible brain damage in living organisms.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.95, 0.1, 0.1)</defaultLabelColor>
 		<comps>
