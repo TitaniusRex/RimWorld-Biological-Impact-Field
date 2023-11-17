@@ -691,12 +691,12 @@
 			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 		</li>
 	    </comps>
-		<stages>
-			<li>
-			    <naturalHealingFactor>4</naturalHealingFactor>
-			</li>
-		</stages>
-		<isBad>false</isBad>
+	    <stages>
+		<li>
+		     <naturalHealingFactor>4</naturalHealingFactor>
+		</li>
+	    </stages>
+	    <isBad>false</isBad>
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
