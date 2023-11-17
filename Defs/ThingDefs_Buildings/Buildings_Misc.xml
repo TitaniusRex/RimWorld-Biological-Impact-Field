@@ -685,12 +685,12 @@
 		<li Class="HediffCompProperties_Disappears">
 		    <disappearsAfterTicks>30</disappearsAfterTicks>
 		    <showRemainingTime>false</showRemainingTime>
-			</li>
-			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			<li Class="HediffCompProperties_Link">
-				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
-			</li>
-		</comps>
+		    </li>
+		    <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		    <li Class="HediffCompProperties_Link">
+			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		</li>
+	    </comps>
 		<stages>
 			<li>
 			    <naturalHealingFactor>4</naturalHealingFactor>
