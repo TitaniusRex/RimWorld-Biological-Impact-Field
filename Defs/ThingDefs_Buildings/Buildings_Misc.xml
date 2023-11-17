@@ -679,10 +679,10 @@
 	    <defName>BIF_HealingFactor</defName>
 	    <label>BIF Healer</label>
 	    <description>Acceleration of wound healing.</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
-		<comps>
-			<li Class="HediffCompProperties_Disappears">
+	    <hediffClass>HediffWithComps</hediffClass>
+	    <defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+	    <comps>
+		<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>30</disappearsAfterTicks>
 				<showRemainingTime>false</showRemainingTime>
 			</li>
