@@ -144,13 +144,13 @@
 		</li>
 	    </comps>
 	    <hediffGivers>
-			<li Class="HediffGiver_Random">
-				<mtbDays>0.004</mtbDays>
-				<hediff>MissingBodyPart</hediff>
-				<partsToAffect>
-					<li>Head</li>
-				</partsToAffect>
-			</li>
+		<li Class="HediffGiver_Random">
+		    <mtbDays>0.004</mtbDays>
+		    <hediff>MissingBodyPart</hediff>
+		    <partsToAffect>
+			<li>Head</li>
+		    </partsToAffect>
+		</li>
 	    </hediffGivers>
 	    <isBad>true</isBad>
 	</HediffDef>
