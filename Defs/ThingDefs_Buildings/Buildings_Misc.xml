@@ -156,9 +156,9 @@
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>DIF_FlashStopKill</defName>
-		<label>brain rupture device</label>
-		<description>Brain explosion device. Dangerous without compromise.</description>
+	    <defName>DIF_FlashStopKill</defName>
+	    <label>brain rupture device</label>
+	    <description>Brain explosion device. Dangerous without compromise.</description>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.4</fillPercent>
