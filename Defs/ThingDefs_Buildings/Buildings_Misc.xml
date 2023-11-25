@@ -111,9 +111,9 @@
 			<explosiveRadius>13.9</explosiveRadius>
 			<explosiveDamageType>Thump</explosiveDamageType>
 			<destroyThingOnExplosionSize>13.9</destroyThingOnExplosionSize>
-				<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
-				<preExplosionSpawnChance>1</preExplosionSpawnChance>
-				<wickTicks>200~450</wickTicks>
+			    <startWickHitPointsPercent>0.8</startWickHitPointsPercent>
+			    <preExplosionSpawnChance>1</preExplosionSpawnChance>
+			    <wickTicks>200~450</wickTicks>
 		    </li>
 		    <li Class="CompProperties_Flickable"/>
 		    <li Class="CompProperties_Breakdownable"/>
