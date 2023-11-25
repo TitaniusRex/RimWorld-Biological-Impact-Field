@@ -608,10 +608,10 @@
 	    <tickerType>Normal</tickerType>
 	    <drawerType>RealtimeOnly</drawerType>
 	    <fillPercent>0.4</fillPercent>
-		<designatorDropdown>BIF_busterstoper</designatorDropdown>
-		<graphicData>
-			<texPath>Things/Building/BIFSmol/BIFSmolImmunoizer</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+	    <designatorDropdown>BIF_busterstoper</designatorDropdown>
+	    <graphicData>
+		<texPath>Things/Building/BIFSmol/BIFSmolImmunoizer</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2.5,2.5)</drawSize>
 			<shadowData>
 				<volume>(0.8, 0.35, 0.8)</volume>
