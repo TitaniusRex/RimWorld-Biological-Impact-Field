@@ -602,9 +602,9 @@
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>BIF_immunizerAdgeyzer</defName>
-		<label>Immunomodulator</label>
-		<description>Affects the immune system. It has no direct effect on pathogens, but changes the immune response of cells.</description>
+	    <defName>BIF_immunizerAdgeyzer</defName>
+	    <label>Immunomodulator</label>
+	    <description>Affects the immune system. It has no direct effect on pathogens, but changes the immune response of cells.</description>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.4</fillPercent>
