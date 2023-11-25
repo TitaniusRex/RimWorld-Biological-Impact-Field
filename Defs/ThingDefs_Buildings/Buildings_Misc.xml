@@ -135,14 +135,14 @@
 	    <defaultLabelColor>(0.95, 0.1, 0.1)</defaultLabelColor>
 	    <comps>
 	        <li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>30</disappearsAfterTicks>
-				<showRemainingTime>false</showRemainingTime>
-			</li>
-			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			<li Class="HediffCompProperties_Link">
+		    <disappearsAfterTicks>30</disappearsAfterTicks>
+		    <showRemainingTime>false</showRemainingTime>
+		</li>
+		<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		<li Class="HediffCompProperties_Link">
 				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 			</li>
-		</comps>
+	    </comps>
 		<hediffGivers>
 			<li Class="HediffGiver_Random">
 				<mtbDays>0.004</mtbDays>
