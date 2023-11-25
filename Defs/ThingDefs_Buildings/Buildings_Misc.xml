@@ -140,10 +140,10 @@
 		</li>
 		<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		<li Class="HediffCompProperties_Link">
-				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
-			</li>
+		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		</li>
 	    </comps>
-		<hediffGivers>
+	    <hediffGivers>
 			<li Class="HediffGiver_Random">
 				<mtbDays>0.004</mtbDays>
 				<hediff>MissingBodyPart</hediff>
@@ -151,8 +151,8 @@
 					<li>Head</li>
 				</partsToAffect>
 			</li>
-		</hediffGivers>
-		<isBad>true</isBad>
+	    </hediffGivers>
+	    <isBad>true</isBad>
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
