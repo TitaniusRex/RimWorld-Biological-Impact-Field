@@ -159,9 +159,9 @@
 	    <defName>DIF_FlashStopKill</defName>
 	    <label>brain rupture device</label>
 	    <description>Brain explosion device. Dangerous without compromise.</description>
-		<tickerType>Normal</tickerType>
-		<drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.4</fillPercent>
+	    <tickerType>Normal</tickerType>
+	    <drawerType>RealtimeOnly</drawerType>
+	    <fillPercent>0.4</fillPercent>
 		<designatorDropdown>BIF_busterstoper</designatorDropdown>
 		<graphicData>
 			<texPath>Things/Building/BIFSmol/BIFSmolKaboom</texPath>
