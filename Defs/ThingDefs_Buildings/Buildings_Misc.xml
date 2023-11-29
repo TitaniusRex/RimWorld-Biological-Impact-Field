@@ -107,14 +107,14 @@
 		    <cellsToPollute>1</cellsToPollute>
 		    <pollutionIntervalTicks>15000</pollutionIntervalTicks><!-- 4 on 1 day -->
 		</li>
-		    <li Class="CompProperties_Explosive">
+		<li Class="CompProperties_Explosive">
 			<explosiveRadius>13.9</explosiveRadius>
 			<explosiveDamageType>Thump</explosiveDamageType>
 			<destroyThingOnExplosionSize>13.9</destroyThingOnExplosionSize>
 			<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
 			<preExplosionSpawnChance>1</preExplosionSpawnChance>
 			<wickTicks>200~450</wickTicks>
-		    </li>
+		</li>
 		    <li Class="CompProperties_Flickable"/>
 		    <li Class="CompProperties_Breakdownable"/>
 	    </comps>
