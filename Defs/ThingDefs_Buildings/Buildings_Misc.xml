@@ -115,8 +115,8 @@
 		    <preExplosionSpawnChance>1</preExplosionSpawnChance>
 		    <wickTicks>200~450</wickTicks>
 		</li>
-		    <li Class="CompProperties_Flickable"/>
-		    <li Class="CompProperties_Breakdownable"/>
+		<li Class="CompProperties_Flickable"/>
+		<li Class="CompProperties_Breakdownable"/>
 	    </comps>
 	    <placeWorkers>
 		<li>PlaceWorker_ShowCauseHediffAoE</li>
