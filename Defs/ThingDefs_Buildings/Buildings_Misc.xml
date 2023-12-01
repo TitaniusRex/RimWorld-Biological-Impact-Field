@@ -184,10 +184,10 @@
 	    </building>
 	    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	    <designationCategory>Biotech</designationCategory>
-		<uiOrder>3820</uiOrder>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<WorkToBuild>16000</WorkToBuild>
+	    <uiOrder>3820</uiOrder>
+	    <statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToBuild>16000</WorkToBuild>
 			<Mass>225</Mass>
 			<Flammability>0.1</Flammability>
 		</statBases>
