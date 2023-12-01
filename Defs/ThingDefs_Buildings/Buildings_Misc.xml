@@ -173,9 +173,9 @@
 		    </shadowData>
 	    </graphicData>
 	    <minifiedDef IsNull="True" />
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<building>
+	    <altitudeLayer>Building</altitudeLayer>
+	    <passability>PassThroughOnly</passability>
+	    <building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>Toxifier_Working</soundAmbient>
 			<buildingTags>
