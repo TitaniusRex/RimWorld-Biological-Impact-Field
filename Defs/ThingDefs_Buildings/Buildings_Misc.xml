@@ -188,11 +188,11 @@
 	    <statBases>
 		<MaxHitPoints>150</MaxHitPoints>
 		<WorkToBuild>16000</WorkToBuild>
-			<Mass>225</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<costList>
+		<Mass>225</Mass>
+		<Flammability>0.1</Flammability>
+	    </statBases>
+	    <size>(1,1)</size>
+	    <costList>
 			<Uranium>75</Uranium>
 			<Steel>200</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
