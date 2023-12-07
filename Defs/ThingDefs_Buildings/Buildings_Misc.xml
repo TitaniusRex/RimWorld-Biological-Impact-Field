@@ -244,9 +244,9 @@
 	<!--================-->
 	
 	<HediffDef>
-		<defName>BIF_FlashBoostSleep</defName>
-		<label>BIF Rest</label>
-		<description>This organism is under the influence of a stasis field.</description>
+	    <defName>BIF_FlashBoostSleep</defName>
+	    <label>BIF Rest</label>
+	    <description>This organism is under the influence of a stasis field.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
 		<comps>
