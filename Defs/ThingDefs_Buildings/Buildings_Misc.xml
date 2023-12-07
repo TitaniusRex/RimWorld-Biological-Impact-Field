@@ -218,12 +218,11 @@
 		    <onlyTargetMechs>false</onlyTargetMechs>
 		    <hediff>BIF_FlashHeadExp</hediff>
 		</li>
-			<li Class="CompProperties_Toxifier">
-				<radius>26.9</radius>
-				<cellsToPollute>1</cellsToPollute>
-				<pollutionIntervalTicks>15000</pollutionIntervalTicks>
-				<!--4 on 1 day -->
-			</li>
+		<li Class="CompProperties_Toxifier">
+		    <radius>26.9</radius>
+		    <cellsToPollute>1</cellsToPollute>
+		    <pollutionIntervalTicks>15000</pollutionIntervalTicks><!--4 on 1 day -->
+		</li>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>13.9</explosiveRadius>
 				<explosiveDamageType>Thump</explosiveDamageType>
