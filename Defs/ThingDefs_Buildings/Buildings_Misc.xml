@@ -234,9 +234,9 @@
 		<li Class="CompProperties_Flickable"/>
 		<li Class="CompProperties_Breakdownable"/>
 	    </comps>
-		<placeWorkers>
+	    <placeWorkers>
 			<li>PlaceWorker_ShowCauseHediffAoE</li>
-		</placeWorkers>
+	    </placeWorkers>
 		<rotatable>false</rotatable>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
