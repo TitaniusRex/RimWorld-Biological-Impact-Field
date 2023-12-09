@@ -267,12 +267,12 @@
 		    </statFactors>
 		</li>
 	    </stages>
-		<isBad>false</isBad>
+	    <isBad>false</isBad>
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>DIF_FlashBoostersleep</defName>
-		<label>sleep stasis device</label>
+	    <defName>DIF_FlashBoostersleep</defName>
+	    <label>sleep stasis device</label>
 		<description>Stasis field device. It has a positive effect on the body, slowing down the need for sleep.</description>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
