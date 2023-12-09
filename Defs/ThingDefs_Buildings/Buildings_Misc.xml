@@ -261,9 +261,9 @@
 	    </comps>
 	    <stages>
 		<li>
-				<statFactors>
-					<RestFallRateFactor>0.05</RestFallRateFactor>
-					<PsychicSensitivity>2</PsychicSensitivity>
+		    <statFactors>
+			<RestFallRateFactor>0.05</RestFallRateFactor>
+			<PsychicSensitivity>2</PsychicSensitivity>
 				</statFactors>
 			</li>
 		</stages>
