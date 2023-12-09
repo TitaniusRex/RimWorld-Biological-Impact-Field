@@ -258,9 +258,9 @@
 		<li Class="HediffCompProperties_Link">
 		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 		</li>
-		</comps>
-		<stages>
-			<li>
+	    </comps>
+	    <stages>
+		<li>
 				<statFactors>
 					<RestFallRateFactor>0.05</RestFallRateFactor>
 					<PsychicSensitivity>2</PsychicSensitivity>
