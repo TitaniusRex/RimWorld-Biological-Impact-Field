@@ -276,9 +276,9 @@
 	    <description>Stasis field device. It has a positive effect on the body, slowing down the need for sleep.</description>
 	    <tickerType>Normal</tickerType>
 	    <drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.4</fillPercent>
-		<designatorDropdown>BIF_busterstoper</designatorDropdown>
-		<graphicData>
+	    <fillPercent>0.4</fillPercent>
+	    <designatorDropdown>BIF_busterstoper</designatorDropdown>
+	    <graphicData>
 			<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
