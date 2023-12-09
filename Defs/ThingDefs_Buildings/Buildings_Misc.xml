@@ -250,10 +250,10 @@
 	    <hediffClass>HediffWithComps</hediffClass>
 	    <defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
 	    <comps>
-		<li Class="HediffCompProperties_Disappears">
+	        <li Class="HediffCompProperties_Disappears">
 		    <disappearsAfterTicks>30</disappearsAfterTicks>
 		    <showRemainingTime>false</showRemainingTime>
-		</li>
+	        </li>
 		<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		<li Class="HediffCompProperties_Link">
 		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
@@ -279,14 +279,14 @@
 	    <fillPercent>0.4</fillPercent>
 	    <designatorDropdown>BIF_busterstoper</designatorDropdown>
 	    <graphicData>
-			<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,3)</drawSize>
+		<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
 			<shadowData>
 				<volume>(0.8, 0.35, 0.8)</volume>
 				<offset>(0, 0, -0.2)</offset>
 			</shadowData>
-		</graphicData>
+	    </graphicData>
 		<minifiedDef IsNull="True" />
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
