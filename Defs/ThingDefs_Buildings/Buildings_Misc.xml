@@ -282,10 +282,10 @@
 		<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>(3,3)</drawSize>
-			<shadowData>
-				<volume>(0.8, 0.35, 0.8)</volume>
-				<offset>(0, 0, -0.2)</offset>
-			</shadowData>
+		    <shadowData>
+			<volume>(0.8, 0.35, 0.8)</volume>
+			<offset>(0, 0, -0.2)</offset>
+		    </shadowData>
 	    </graphicData>
 		<minifiedDef IsNull="True" />
 		<altitudeLayer>Building</altitudeLayer>
