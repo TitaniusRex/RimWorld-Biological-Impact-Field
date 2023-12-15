@@ -305,12 +305,12 @@
 		<WorkToBuild>16000</WorkToBuild>
 		<Mass>225</Mass>
 			<Flammability>0.1</Flammability>
-		</statBases>
+	    </statBases>
 		<size>(1,1)</size>
 		<costList>
-			<Uranium>150</Uranium>
-			<Steel>200</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+		    <Uranium>150</Uranium>
+		    <Steel>200</Steel>
+		    <ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
