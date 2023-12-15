@@ -290,10 +290,10 @@
 	    <minifiedDef IsNull="True" />
 	    <altitudeLayer>Building</altitudeLayer>
 	    <passability>PassThroughOnly</passability>
-		<building>
-		    <ai_chillDestination>false</ai_chillDestination>
-		    <soundAmbient>Toxifier_Working</soundAmbient>
-		    <buildingTags>
+	    <building>
+	        <ai_chillDestination>false</ai_chillDestination>
+		<soundAmbient>Toxifier_Working</soundAmbient>
+		<buildingTags>
 			<li>Biotech</li>
 		    </buildingTags>
 		</building>
