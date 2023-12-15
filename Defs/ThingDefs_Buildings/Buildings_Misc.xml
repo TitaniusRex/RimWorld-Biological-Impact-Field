@@ -287,9 +287,9 @@
 			<offset>(0, 0, -0.2)</offset>
 		    </shadowData>
 	    </graphicData>
-		<minifiedDef IsNull="True" />
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
+	    <minifiedDef IsNull="True" />
+	    <altitudeLayer>Building</altitudeLayer>
+	    <passability>PassThroughOnly</passability>
 		<building>
 		    <ai_chillDestination>false</ai_chillDestination>
 		    <soundAmbient>Toxifier_Working</soundAmbient>
