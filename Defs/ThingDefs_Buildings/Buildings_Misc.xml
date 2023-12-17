@@ -279,7 +279,7 @@
 	    <fillPercent>0.4</fillPercent>
 	    <designatorDropdown>BIF_busterstoper</designatorDropdown>
 	    <graphicData>
-		<texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
+	        <texPath>Things/Building/BIFSmol/BIFSmolStazis</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>(3,3)</drawSize>
 		    <shadowData>
@@ -324,10 +324,10 @@
 		    <glowRadius>9.9</glowRadius>
 		    <glowColor>(28,211,162,0)</glowColor>
 		</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>2400</basePowerConsumption>
-			</li>
+		<li Class="CompProperties_Power">
+		    <compClass>CompPowerTrader</compClass>
+		    <basePowerConsumption>2400</basePowerConsumption>
+		</li>
 			<li Class="CompProperties_CauseHediff_AoE">
 				<range>9.9</range>
 				<onlyTargetMechs>false</onlyTargetMechs>
