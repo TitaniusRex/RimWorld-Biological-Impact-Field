@@ -328,11 +328,11 @@
 		    <compClass>CompPowerTrader</compClass>
 		    <basePowerConsumption>2400</basePowerConsumption>
 		</li>
-			<li Class="CompProperties_CauseHediff_AoE">
-				<range>9.9</range>
-				<onlyTargetMechs>false</onlyTargetMechs>
-				<hediff>BIF_FlashBoostSleep</hediff>
-			</li>
+		<li Class="CompProperties_CauseHediff_AoE">
+		    <range>9.9</range>
+		    <onlyTargetMechs>false</onlyTargetMechs>
+		    <hediff>BIF_FlashBoostSleep</hediff>
+		</li>
 			<li Class="CompProperties_Toxifier">
 				<radius>26.9</radius>
 				<cellsToPollute>2</cellsToPollute>
