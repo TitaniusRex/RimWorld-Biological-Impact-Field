@@ -359,9 +359,9 @@
 	<!--================-->
 	
 	<HediffDef>
-		<defName>BIF_FlashBoostFood</defName>
-		<label>BIF Hunger</label>
-		<description>This organism is under the influence of a stasis field.</description>
+	    <defName>BIF_FlashBoostFood</defName>
+	    <label>BIF Hunger</label>
+	    <description>This organism is under the influence of a stasis field.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
 		<comps>
