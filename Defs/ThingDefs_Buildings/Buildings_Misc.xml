@@ -375,14 +375,14 @@
 		</li>
 	    </comps>
 	    <stages>
-			<li>
+		<li>
 				<hungerRateFactor>0.05</hungerRateFactor>
 				<statFactors>
 					<PsychicSensitivity>2</PsychicSensitivity>
 				</statFactors>
-			</li>
-		</stages>
-		<isBad>false</isBad>
+		</li>
+	    </stages>
+	    <isBad>false</isBad>
 	</HediffDef>
 	
 	<ThingDef ParentName="BuildingBase">
