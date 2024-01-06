@@ -376,10 +376,10 @@
 	    </comps>
 	    <stages>
 		<li>
-				<hungerRateFactor>0.05</hungerRateFactor>
-				<statFactors>
-					<PsychicSensitivity>2</PsychicSensitivity>
-				</statFactors>
+		    <hungerRateFactor>0.05</hungerRateFactor>
+		    <statFactors>
+			<PsychicSensitivity>2</PsychicSensitivity>
+		    </statFactors>
 		</li>
 	    </stages>
 	    <isBad>false</isBad>
