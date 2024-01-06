@@ -398,12 +398,12 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>(3,3)</drawSize>
 		    <shadowData>
-				<volume>(0.8, 0.35, 0.8)</volume>
-				<offset>(0, 0, -0.2)</offset>
+			<volume>(0.8, 0.35, 0.8)</volume>
+			<offset>(0, 0, -0.2)</offset>
 		    </shadowData>
 	    </graphicData> 
 	    <minifiedDef IsNull="True" />
-		<altitudeLayer>Building</altitudeLayer>
+	    <altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
