@@ -386,9 +386,9 @@
 	</HediffDef>
 	
 	<ThingDef ParentName="BuildingBase">
-		<defName>BIF_FlashStazisFood</defName>
-		<label>hunger stasis device</label>
-		<description>Stasis field device. It has a positive effect on the body, slowing down the need for hunger.</description>
+	    <defName>BIF_FlashStazisFood</defName>
+	    <label>hunger stasis device</label>
+	    <description>Stasis field device. It has a positive effect on the body, slowing down the need for hunger.</description>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.4</fillPercent>
