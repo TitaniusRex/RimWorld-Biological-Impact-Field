@@ -405,13 +405,13 @@
 	    <minifiedDef IsNull="True" />
 	    <altitudeLayer>Building</altitudeLayer>
 	    <passability>Impassable</passability>
-		<building>
-			<ai_chillDestination>false</ai_chillDestination>
+	    <building>
+		<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>Toxifier_Working</soundAmbient>
 			<buildingTags>
 				<li>Biotech</li>
 			</buildingTags>
-		</building>
+	    </building>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<designationCategory>Biotech</designationCategory>
 		<uiOrder>3820</uiOrder>
