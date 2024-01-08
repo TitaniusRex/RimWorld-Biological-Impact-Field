@@ -416,8 +416,8 @@
 	    <designationCategory>Biotech</designationCategory>
 	    <uiOrder>3820</uiOrder>
 	    <statBases>
-		    <MaxHitPoints>250</MaxHitPoints>
-		    <WorkToBuild>16000</WorkToBuild>
+		<MaxHitPoints>250</MaxHitPoints>
+		<WorkToBuild>16000</WorkToBuild>
 		    <Mass>25</Mass>
 		    <Flammability>0.1</Flammability>
 	    </statBases>
