@@ -429,8 +429,8 @@
 	    </costList>
 	    <researchPrerequisites>
 		<li>MicroelectronicsBasics</li>
-		</researchPrerequisites>
-		<comps>
+	    </researchPrerequisites>
+	    <comps>
 			<li Class="CompProperties_MoteEmitter">
 				<mote>Mote_PsychicEmanatorEffect</mote>
 				<emissionInterval>350</emissionInterval>
@@ -464,7 +464,7 @@
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
-		</comps>
+	    </comps>
 		<rotatable>false</rotatable>
 		<placeWorkers>
 			<li>PlaceWorker_ShowCauseHediffAoE</li>
