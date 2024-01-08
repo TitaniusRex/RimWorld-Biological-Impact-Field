@@ -425,10 +425,10 @@
 	    <costList>
 		<Uranium>150</Uranium>
 		<Steel>200</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+		<ComponentIndustrial>4</ComponentIndustrial>
 	    </costList>
 	    <researchPrerequisites>
-			<li>MicroelectronicsBasics</li>
+		<li>MicroelectronicsBasics</li>
 		</researchPrerequisites>
 		<comps>
 			<li Class="CompProperties_MoteEmitter">
