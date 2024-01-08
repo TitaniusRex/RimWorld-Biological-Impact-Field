@@ -423,8 +423,8 @@
 	    </statBases>
 	    <size>(1,1)</size>
 	    <costList>
-			<Uranium>150</Uranium>
-			<Steel>200</Steel>
+		<Uranium>150</Uranium>
+		<Steel>200</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 	    </costList>
 	    <researchPrerequisites>
