@@ -413,8 +413,8 @@
 		</buildingTags>
 	    </building>
 	    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-		<designationCategory>Biotech</designationCategory>
-		<uiOrder>3820</uiOrder>
+	    <designationCategory>Biotech</designationCategory>
+	    <uiOrder>3820</uiOrder>
 	    <statBases>
 		    <MaxHitPoints>250</MaxHitPoints>
 		    <WorkToBuild>16000</WorkToBuild>
