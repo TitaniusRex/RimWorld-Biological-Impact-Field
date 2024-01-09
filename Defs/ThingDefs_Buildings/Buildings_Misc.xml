@@ -444,9 +444,9 @@
 		    <basePowerConsumption>2400</basePowerConsumption>
 		</li>
 		<li Class="CompProperties_CauseHediff_AoE">
-				<range>9.9</range>
-				<onlyTargetMechs>false</onlyTargetMechs>
-				<hediff>BIF_FlashBoostFood</hediff>
+		    <range>9.9</range>
+		    <onlyTargetMechs>false</onlyTargetMechs>
+		    <hediff>BIF_FlashBoostFood</hediff>
 			</li>
 			<li Class="CompProperties_Toxifier">
 				<radius>26.9</radius>
