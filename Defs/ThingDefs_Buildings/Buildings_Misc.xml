@@ -450,10 +450,10 @@
 		</li>
 		<li Class="CompProperties_Toxifier">
 		    <radius>26.9</radius>
-				<cellsToPollute>2</cellsToPollute>
-				<pollutionIntervalTicks>60000</pollutionIntervalTicks>
+		    <cellsToPollute>2</cellsToPollute>
+		    <pollutionIntervalTicks>60000</pollutionIntervalTicks>
 				<!-- ~ 1 day -->
-			</li>
+		</li>
 		    <li Class="CompProperties_Explosive">
 				<explosiveRadius>13.9</explosiveRadius>
 				<explosiveDamageType>Thump</explosiveDamageType>
