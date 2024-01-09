@@ -433,12 +433,12 @@
 	    <comps>
 		<li Class="CompProperties_MoteEmitter">
 		    <mote>Mote_PsychicEmanatorEffect</mote>
-				<emissionInterval>350</emissionInterval>
+		    <emissionInterval>350</emissionInterval>
 		</li>
-			<li Class="CompProperties_Glower">
+		<li Class="CompProperties_Glower">
 				<glowRadius>9.9</glowRadius>
 				<glowColor>(28,211,162,0)</glowColor>
-			</li>
+		</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>2400</basePowerConsumption>
