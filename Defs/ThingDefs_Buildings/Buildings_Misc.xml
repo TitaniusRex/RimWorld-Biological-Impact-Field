@@ -447,9 +447,9 @@
 		    <range>9.9</range>
 		    <onlyTargetMechs>false</onlyTargetMechs>
 		    <hediff>BIF_FlashBoostFood</hediff>
-			</li>
-			<li Class="CompProperties_Toxifier">
-				<radius>26.9</radius>
+		</li>
+		<li Class="CompProperties_Toxifier">
+		    <radius>26.9</radius>
 				<cellsToPollute>2</cellsToPollute>
 				<pollutionIntervalTicks>60000</pollutionIntervalTicks>
 				<!-- ~ 1 day -->
