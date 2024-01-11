@@ -482,12 +482,12 @@
 	    <defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
 	    <comps>
 		<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>30</disappearsAfterTicks>
-				<showRemainingTime>false</showRemainingTime>
+		    <disappearsAfterTicks>30</disappearsAfterTicks>
+		    <showRemainingTime>false</showRemainingTime>
 		</li>
 		<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		<li Class="HediffCompProperties_Link">
-				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 		</li>
 	    </comps>
 		<stages>
