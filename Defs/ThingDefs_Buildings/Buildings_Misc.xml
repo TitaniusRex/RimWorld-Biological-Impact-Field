@@ -494,9 +494,9 @@
 		<li>
 		    <statFactors>
 					<PsychicSensitivity>0</PsychicSensitivity>
-				</statFactors>
-			</li>
-		</stages>
+		    </statFactors>
+		</li>
+	    </stages>
 		<isBad>false</isBad>
 	</HediffDef>
 
