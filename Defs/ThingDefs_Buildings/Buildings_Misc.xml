@@ -475,9 +475,9 @@
 	<!--================-->
 
 	<HediffDef>
-		<defName>BIF_PsyStasis</defName>
-		<label>BIF Faraday</label>
-		<description>The stasis field from this device indicates living organisms from psychic exposure.</description>
+	    <defName>BIF_PsyStasis</defName>
+	    <label>BIF Faraday</label>
+	    <description>The stasis field from this device indicates living organisms from psychic exposure.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
 		<comps>
