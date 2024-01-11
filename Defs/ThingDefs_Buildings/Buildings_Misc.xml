@@ -467,9 +467,9 @@
 	    </comps>
 	    <rotatable>false</rotatable>
 	    <placeWorkers>
-			<li>PlaceWorker_ShowCauseHediffAoE</li>
-		</placeWorkers>
-		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<li>PlaceWorker_ShowCauseHediffAoE</li>
+	    </placeWorkers>
+	    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
 
 	<!--================-->
