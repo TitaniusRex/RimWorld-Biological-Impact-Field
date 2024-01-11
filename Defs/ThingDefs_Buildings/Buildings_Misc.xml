@@ -490,9 +490,9 @@
 		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 		</li>
 	    </comps>
-		<stages>
-			<li>
-				<statFactors>
+	    <stages>
+		<li>
+		    <statFactors>
 					<PsychicSensitivity>0</PsychicSensitivity>
 				</statFactors>
 			</li>
