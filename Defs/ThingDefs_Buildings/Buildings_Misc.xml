@@ -515,9 +515,9 @@
 		<shadowData>
 		    <volume>(0.8, 0.35, 0.8)</volume>
 		    <offset>(0, 0, -0.2)</offset>
-	    </shadowData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+	        </shadowData>
+	    </graphicData>
+	    <altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
