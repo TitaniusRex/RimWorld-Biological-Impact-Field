@@ -503,10 +503,10 @@
 	<ThingDef ParentName="BuildingBase">
 	    <defName>BIF_FlashStazisPsy</defName>
 	    <label>Faraday device</label>
-		<description>Stasis field device. Protects from psychic influence.</description>
-		<tickerType>Normal</tickerType>
-		<drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.4</fillPercent>
+	    <description>Stasis field device. Protects from psychic influence.</description>
+	    <tickerType>Normal</tickerType>
+	    <drawerType>RealtimeOnly</drawerType>
+	    <fillPercent>0.4</fillPercent>
 		<designatorDropdown>BIF_busterstoper</designatorDropdown>
 		<graphicData>
 			<texPath>Things/Building/BIFSmol/BIFSmolStazisFaraday</texPath>
