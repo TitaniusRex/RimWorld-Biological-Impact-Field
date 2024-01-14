@@ -510,9 +510,9 @@
 	    <designatorDropdown>BIF_busterstoper</designatorDropdown>
 	    <graphicData>
 		<texPath>Things/Building/BIFSmol/BIFSmolStazisFaraday</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2.5,2.5)</drawSize>
-			<shadowData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(2.5,2.5)</drawSize>
+		<shadowData>
 				<volume>(0.8, 0.35, 0.8)</volume>
 				<offset>(0, 0, -0.2)</offset>
 			</shadowData>
