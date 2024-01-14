@@ -518,9 +518,9 @@
 	        </shadowData>
 	    </graphicData>
 	    <altitudeLayer>Building</altitudeLayer>
-		<passability>Impassable</passability>
-		<building>
-			<ai_chillDestination>false</ai_chillDestination>
+	    <passability>Impassable</passability>
+	    <building>
+		<ai_chillDestination>false</ai_chillDestination>
 			<buildingTags>
 				<li>Biotech</li>
 			</buildingTags>
