@@ -527,13 +527,13 @@
 	    </building>
 	    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	    <designationCategory>Biotech</designationCategory>
-		<uiOrder>3820</uiOrder>
-		<statBases>
+	    <uiOrder>3820</uiOrder>
+	    <statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
 			<Mass>25</Mass>
 			<Flammability>0.1</Flammability>
-		</statBases>
+	    </statBases>
 		<size>(1,1)</size>
 		<costList>
 			<Uranium>15</Uranium>
