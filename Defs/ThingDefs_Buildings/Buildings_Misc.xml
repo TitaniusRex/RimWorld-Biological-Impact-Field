@@ -513,9 +513,9 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>(2.5,2.5)</drawSize>
 		<shadowData>
-				<volume>(0.8, 0.35, 0.8)</volume>
-				<offset>(0, 0, -0.2)</offset>
-			</shadowData>
+		    <volume>(0.8, 0.35, 0.8)</volume>
+		    <offset>(0, 0, -0.2)</offset>
+	    </shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
