@@ -493,7 +493,7 @@
 	    <stages>
 		<li>
 		    <statFactors>
-					<PsychicSensitivity>0</PsychicSensitivity>
+			<PsychicSensitivity>0</PsychicSensitivity>
 		    </statFactors>
 		</li>
 	    </stages>
@@ -501,8 +501,8 @@
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<defName>BIF_FlashStazisPsy</defName>
-		<label>Faraday device</label>
+	    <defName>BIF_FlashStazisPsy</defName>
+	    <label>Faraday device</label>
 		<description>Stasis field device. Protects from psychic influence.</description>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
