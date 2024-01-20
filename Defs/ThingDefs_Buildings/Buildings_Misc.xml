@@ -541,9 +541,9 @@
 		<ComponentIndustrial>2</ComponentIndustrial>
 	    </costList>
 	    <researchPrerequisites>
-			<li>MicroelectronicsBasics</li>
-		</researchPrerequisites>
-		<comps>
+		<li>MicroelectronicsBasics</li>
+	    </researchPrerequisites>
+	    <comps>
 			<li Class="CompProperties_MoteEmitter">
 				<mote>Mote_PsychicEmanatorEffect</mote>
 				<emissionInterval>350</emissionInterval>
