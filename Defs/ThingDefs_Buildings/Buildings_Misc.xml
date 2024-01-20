@@ -536,9 +536,9 @@
 	    </statBases>
 		<size>(1,1)</size>
 		<costList>
-		    <Uranium>15</Uranium>
-		    <Steel>100</Steel>
-		    <ComponentIndustrial>2</ComponentIndustrial>
+		<Uranium>15</Uranium>
+		<Steel>100</Steel>
+		<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
