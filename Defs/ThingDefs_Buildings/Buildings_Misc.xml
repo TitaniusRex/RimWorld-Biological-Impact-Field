@@ -562,9 +562,9 @@
 		    <hediff>BIF_PsyStasis</hediff>
 		</li>
 		<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-		</comps>
-		<rotatable>false</rotatable>
+		<li Class="CompProperties_Breakdownable"/>
+	    </comps>
+	    <rotatable>false</rotatable>
 		<placeWorkers>
 			<li>PlaceWorker_ShowCauseHediffAoE</li>
 		</placeWorkers>
