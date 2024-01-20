@@ -555,12 +555,12 @@
 		<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>1100</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_CauseHediff_AoE">
+		</li>
+		<li Class="CompProperties_CauseHediff_AoE">
 				<range>5.9</range>
 				<onlyTargetMechs>false</onlyTargetMechs>
 				<hediff>BIF_PsyStasis</hediff>
-			</li>
+		</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
