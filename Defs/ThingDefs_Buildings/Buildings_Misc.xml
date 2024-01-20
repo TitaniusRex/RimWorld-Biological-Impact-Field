@@ -553,11 +553,11 @@
 		    <glowColor>(28,211,162,0)</glowColor>
 		</li>
 		<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>1100</basePowerConsumption>
+		    <compClass>CompPowerTrader</compClass>
+		    <basePowerConsumption>1100</basePowerConsumption>
 		</li>
 		<li Class="CompProperties_CauseHediff_AoE">
-				<range>5.9</range>
+		    <range>5.9</range>
 				<onlyTargetMechs>false</onlyTargetMechs>
 				<hediff>BIF_PsyStasis</hediff>
 		</li>
