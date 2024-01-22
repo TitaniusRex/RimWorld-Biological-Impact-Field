@@ -576,9 +576,9 @@
 	<HediffDef>
 	    <defName>BIF_immunizers</defName>
 	    <label>BIF Immunomodulator</label>
-		<description>Affects the immune system.</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
+	    <description>Affects the immune system.</description>
+	    <hediffClass>HediffWithComps</hediffClass>
+	    <defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>30</disappearsAfterTicks>
