@@ -579,17 +579,17 @@
 	    <description>Affects the immune system.</description>
 	    <hediffClass>HediffWithComps</hediffClass>
 	    <defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
-		<comps>
+	    <comps>
 		    <li Class="HediffCompProperties_Disappears">
 			<disappearsAfterTicks>30</disappearsAfterTicks>
 			<showRemainingTime>false</showRemainingTime>
 		    </li>
 		    <li Class="HediffCompProperties_DisappearsOnDeath"/>
 		    <li Class="HediffCompProperties_Link">
-				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
-			</li>
-		</comps>
-		<stages>
+			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		    </li>
+	    </comps>
+	    <stages>
 			<li>
 				<statFactors>
 					<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
