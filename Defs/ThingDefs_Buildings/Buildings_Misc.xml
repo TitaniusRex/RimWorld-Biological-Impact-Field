@@ -595,8 +595,8 @@
 			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
 		    </statFactors>
 		</li>
-		</stages>
-		<isBad>false</isBad>
+	    </stages>
+	    <isBad>false</isBad>
 	</HediffDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -612,7 +612,7 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>(2.5,2.5)</drawSize>
 		<shadowData>
-				<volume>(0.8, 0.35, 0.8)</volume>
+		    <volume>(0.8, 0.35, 0.8)</volume>
 				<offset>(0, 0, -0.2)</offset>
 		</shadowData>
 		</graphicData>
