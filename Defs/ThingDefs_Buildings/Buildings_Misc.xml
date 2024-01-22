@@ -591,10 +591,10 @@
 	    </comps>
 	    <stages>
 		<li>
-				<statFactors>
-					<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
-				</statFactors>
-			</li>
+		    <statFactors>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+		    </statFactors>
+		</li>
 		</stages>
 		<isBad>false</isBad>
 	</HediffDef>
