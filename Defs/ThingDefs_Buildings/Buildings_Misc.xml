@@ -582,15 +582,15 @@
 	    <comps>
 		<li Class="HediffCompProperties_Disappears">
 		    <disappearsAfterTicks>30</disappearsAfterTicks>
-			<showRemainingTime>false</showRemainingTime>
+		    <showRemainingTime>false</showRemainingTime>
 		</li>
 		<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		<li Class="HediffCompProperties_Link">
-			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+		    <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
 		</li>
 	    </comps>
 	    <stages>
-			<li>
+		<li>
 				<statFactors>
 					<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
 				</statFactors>
