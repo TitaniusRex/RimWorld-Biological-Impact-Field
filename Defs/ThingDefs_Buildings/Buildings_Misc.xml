@@ -566,7 +566,7 @@
 	    </comps>
 	    <rotatable>false</rotatable>
 		<placeWorkers>
-			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		    <li>PlaceWorker_ShowCauseHediffAoE</li>
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
@@ -574,8 +574,8 @@
 	<!--================-->
 
 	<HediffDef>
-		<defName>BIF_immunizers</defName>
-		<label>BIF Immunomodulator</label>
+	    <defName>BIF_immunizers</defName>
+	    <label>BIF Immunomodulator</label>
 		<description>Affects the immune system.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.42, 1, 0.25)</defaultLabelColor>
