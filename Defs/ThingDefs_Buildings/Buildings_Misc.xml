@@ -619,10 +619,10 @@
 	    <altitudeLayer>Building</altitudeLayer>
 	    <passability>PassThroughOnly</passability>
 	    <building>
-			<ai_chillDestination>false</ai_chillDestination>
-			<buildingTags>
+		<ai_chillDestination>false</ai_chillDestination>
+		<buildingTags>
 				<li>Biotech</li>
-			</buildingTags>
+		</buildingTags>
 		</building>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<designationCategory>Biotech</designationCategory>
