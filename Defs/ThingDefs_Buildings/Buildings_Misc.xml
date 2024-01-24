@@ -566,7 +566,7 @@
 	    </comps>
 	    <rotatable>false</rotatable>
 	    <placeWorkers>
-		    <li>PlaceWorker_ShowCauseHediffAoE</li>
+		<li>PlaceWorker_ShowCauseHediffAoE</li>
 	    </placeWorkers>
 	    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
@@ -613,9 +613,9 @@
 		<drawSize>(2.5,2.5)</drawSize>
 		<shadowData>
 		    <volume>(0.8, 0.35, 0.8)</volume>
-				<offset>(0, 0, -0.2)</offset>
+		    <offset>(0, 0, -0.2)</offset>
 		</shadowData>
-		</graphicData>
+	    </graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<building>
