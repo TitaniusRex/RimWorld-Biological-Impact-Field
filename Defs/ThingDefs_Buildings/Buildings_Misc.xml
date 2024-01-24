@@ -616,9 +616,9 @@
 		    <offset>(0, 0, -0.2)</offset>
 		</shadowData>
 	    </graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<building>
+	    <altitudeLayer>Building</altitudeLayer>
+	    <passability>PassThroughOnly</passability>
+	    <building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<buildingTags>
 				<li>Biotech</li>
