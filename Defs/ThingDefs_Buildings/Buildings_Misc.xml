@@ -635,11 +635,11 @@
 	    </statBases>
 	    <size>(1,1)</size>
 	    <costList>
-		    <Uranium>15</Uranium>
+		<Uranium>15</Uranium>
 		    <Steel>50</Steel>
 		    <ComponentIndustrial>4</ComponentIndustrial>
-		</costList>
-		<researchPrerequisites>
+	    </costList>
+	    <researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
 		</researchPrerequisites>
 		<comps>
