@@ -565,10 +565,10 @@
 		<li Class="CompProperties_Breakdownable"/>
 	    </comps>
 	    <rotatable>false</rotatable>
-		<placeWorkers>
+	    <placeWorkers>
 		    <li>PlaceWorker_ShowCauseHediffAoE</li>
-		</placeWorkers>
-		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	    </placeWorkers>
+	    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	</ThingDef>
 
 	<!--================-->
