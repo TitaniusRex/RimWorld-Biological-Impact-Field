@@ -659,8 +659,8 @@
 				<range>5.9</range>
 				<onlyTargetMechs>false</onlyTargetMechs>
 				<hediff>BIF_immunizers</hediff>
-			</li>
-			<li Class="CompProperties_Flickable"/>
+		</li>
+		<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<rotatable>false</rotatable>
