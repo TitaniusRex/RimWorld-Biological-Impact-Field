@@ -654,8 +654,8 @@
 		<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>1600</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_CauseHediff_AoE">
+		</li>
+		<li Class="CompProperties_CauseHediff_AoE">
 				<range>5.9</range>
 				<onlyTargetMechs>false</onlyTargetMechs>
 				<hediff>BIF_immunizers</hediff>
