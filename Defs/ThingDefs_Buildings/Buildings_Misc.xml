@@ -656,9 +656,9 @@
 		    <basePowerConsumption>1600</basePowerConsumption>
 		</li>
 		<li Class="CompProperties_CauseHediff_AoE">
-				<range>5.9</range>
-				<onlyTargetMechs>false</onlyTargetMechs>
-				<hediff>BIF_immunizers</hediff>
+		    <range>5.9</range>
+		    <onlyTargetMechs>false</onlyTargetMechs>
+		    <hediff>BIF_immunizers</hediff>
 		</li>
 		<li Class="CompProperties_Flickable"/>
 		<li Class="CompProperties_Breakdownable"/>
