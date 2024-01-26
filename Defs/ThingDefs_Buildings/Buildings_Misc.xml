@@ -650,8 +650,8 @@
 		<li Class="CompProperties_Glower">
 				<glowRadius>9.9</glowRadius>
 				<glowColor>(7,2,115,0)</glowColor>
-			</li>
-			<li Class="CompProperties_Power">
+		</li>
+		<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>1600</basePowerConsumption>
 			</li>
