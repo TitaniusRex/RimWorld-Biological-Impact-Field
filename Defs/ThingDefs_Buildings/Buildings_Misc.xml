@@ -652,8 +652,8 @@
 		    <glowColor>(7,2,115,0)</glowColor>
 		</li>
 		<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>1600</basePowerConsumption>
+		    <compClass>CompPowerTrader</compClass>
+		    <basePowerConsumption>1600</basePowerConsumption>
 		</li>
 		<li Class="CompProperties_CauseHediff_AoE">
 				<range>5.9</range>
